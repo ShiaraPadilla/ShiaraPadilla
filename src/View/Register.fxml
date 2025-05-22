@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="449.0" prefWidth="942.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.RegisterController">
+   <children>
+      <ImageView fitHeight="594.0" fitWidth="564.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../imagenes/Galería%20de%206%20imágenes.png" />
+         </image>
+      </ImageView>
+      <VBox alignment="TOP_CENTER" layoutX="563.0" prefHeight="64.0" prefWidth="379.0">
+         <children>
+            <Label text="REGISTRARSE">
+               <font>
+                  <Font name="Franklin Gothic Heavy" size="32.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="37.0" fitWidth="48.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../imagenes/Icono.png" />
+               </image>
+            </ImageView>
+         </children>
+      </VBox>
+      <VBox layoutX="602.0" layoutY="83.0" prefHeight="338.0" prefWidth="302.0" style="-fx-background-color: white; -fx-padding: 20; -fx-background-radius: 10;">
+         <children>
+            <Label text="Ingrese los siguientes datos">
+               <font>
+                  <Font name="Franklin Gothic Heavy" size="18.0" />
+               </font>
+            </Label>
+            <VBox prefHeight="29.0" prefWidth="262.0" />
+            <Label text="Usuario">
+               <font>
+                  <Font name="Franklin Gothic Heavy" size="13.0" />
+               </font>
+            </Label>
+            <TextField fx:id="txtUsuario" promptText="Ingrese Usuario" />
+            <VBox prefHeight="18.0" prefWidth="262.0" />
+            <Label text="Contraseña">
+               <font>
+                  <Font name="Franklin Gothic Heavy" size="13.0" />
+               </font>
+            </Label>
+            <PasswordField fx:id="txtPassword" promptText="Ingrese contraseña" />
+            <VBox prefHeight="20.0" prefWidth="262.0" />
+            <Label text="Confirmar contraseña">
+               <font>
+                  <Font name="Franklin Gothic Heavy" size="13.0" />
+               </font>
+            </Label>
+            <PasswordField fx:id="ConfirPassword" promptText="Ingrese nuevamente la contraseña" />
+            <VBox prefHeight="18.0" prefWidth="262.0" />
+            <Label text="Ya tienes una cuenta?" />
+            <Hyperlink onAction="#handleGoToLogin" text="Iniciar sesion" />
+            <VBox prefHeight="22.0" prefWidth="262.0" />
+            <VBox alignment="TOP_CENTER" prefHeight="33.0" prefWidth="262.0">
+               <children>
+                  <Button fx:id="registerButton" mnemonicParsing="false" onAction="#handleRegister" prefHeight="26.0" prefWidth="257.0" style="-fx-background-color: #cccccc; -fx-text-fill: black; -fx-font-weight: bold;" text="REGISTRARSE" />
+               </children>
+            </VBox>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

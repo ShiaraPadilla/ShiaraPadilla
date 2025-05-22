@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="449.0" prefWidth="942.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.Catalogo1Controller">
+   <children>
+      <VBox alignment="TOP_CENTER" layoutX="152.0" layoutY="2.0" prefHeight="54.0" prefWidth="154.0">
+         <children>
+            <ImageView fitHeight="53.0" fitWidth="81.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../imagenes/Slogin.png" />
+               </image>
+            </ImageView>
+         </children>
+      </VBox>
+      <VBox layoutX="26.0" layoutY="180.0" prefHeight="24.0" prefWidth="916.0" />
+      <VBox layoutX="26.0" layoutY="204.0" prefHeight="110.0" prefWidth="110.0">
+         <children>
+            <ImageView fitHeight="169.0" fitWidth="108.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../imagenes/Gorra.png" />
+               </image>
+            </ImageView>
+         </children>
+      </VBox>
+      <VBox layoutX="26.0" layoutY="314.0" prefHeight="24.0" prefWidth="916.0" />
+      <VBox layoutX="24.0" layoutY="338.0" prefHeight="110.0" prefWidth="110.0">
+         <children>
+            <ImageView fitHeight="107.0" fitWidth="109.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../imagenes/MujerC.png" />
+               </image>
+            </ImageView>
+         </children>
+      </VBox>
+      <VBox layoutX="136.0" layoutY="70.0" prefHeight="110.0" prefWidth="142.0">
+         <children>
+            <Label text="PIJAMA MUJER">
+               <font>
+                  <Font name="Franklin Gothic Heavy" size="12.0" />
+               </font>
+            </Label>
+            <VBox prefHeight="10.0" prefWidth="119.0" />
+            <Label prefHeight="18.0" prefWidth="130.0" text="Pijama santinada" />
+            <Label layoutX="10.0" layoutY="35.0" prefHeight="18.0" prefWidth="122.0" text="con encaje negro" />
+            <Label layoutX="10.0" layoutY="68.0" prefHeight="18.0" prefWidth="122.0" text="comodo, coqueto" />
+            <Label layoutX="10.0" layoutY="72.0" prefHeight="18.0" prefWidth="122.0" text="sexy y femenino." />
+         </children>
+      </VBox>
+      <VBox alignment="TOP_CENTER" layoutX="276.0" layoutY="70.0" prefHeight="107.0" prefWidth="154.0">
+         <children>
+            <Button fx:id="btnComprarPijama" mnemonicParsing="false" prefHeight="26.0" prefWidth="134.0" style="-fx-background-color: #cccccc; -fx-text-fill: black; -fx-font-weight: bold; -fx-background-radius: 11;" text="Comprar 💲" />
+            <VBox prefHeight="14.0" prefWidth="128.0" />
+            <Button fx:id="btnAgregarCarritoPijama" layoutX="32.0" layoutY="10.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="134.0" style="-fx-background-color: #cccccc; -fx-text-fill: black; -fx-font-weight: bold; -fx-background-radius: 11;" text="Añadir al carrito 🛒" />
+            <VBox layoutX="10.0" layoutY="36.0" prefHeight="14.0" prefWidth="128.0" />
+            <Button fx:id="btnMeGustaPijama" layoutX="32.0" layoutY="51.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="134.0" style="-fx-background-color: #cccccc; -fx-text-fill: black; -fx-font-weight: bold; -fx-background-radius: 11;" text="❤" />
+         </children>
+      </VBox>
+      <VBox layoutX="136.0" layoutY="206.0" prefHeight="110.0" prefWidth="142.0">
+         <children>
+            <Label text="GORRA BEISBOLERA">
+               <font>
+                  <Font name="Franklin Gothic Heavy" size="12.0" />
+               </font>
+            </Label>
+            <VBox prefHeight="10.0" prefWidth="119.0" />
+            <Label prefHeight="18.0" prefWidth="122.0" text="Gorra beisbolera bella" />
+            <Label layoutX="10.0" layoutY="35.0" prefHeight="18.0" prefWidth="122.0" text="elegante , del equipo" />
+            <Label layoutX="10.0" layoutY="72.0" prefHeight="18.0" prefWidth="122.0" text="los angeles de " />
+            <Label layoutX="10.0" layoutY="90.0" prefHeight="18.0" prefWidth="122.0" text="New York." />
+         </children>
+      </VBox>
+      <VBox layoutX="136.0" layoutY="338.0" prefHeight="110.0" prefWidth="119.0">
+         <children>
+            <Label text="CONJUNTO MUJER">
+               <font>
+                  <Font name="Franklin Gothic Heavy" size="12.0" />
+               </font>
+            </Label>
+            <VBox prefHeight="10.0" prefWidth="119.0" />
+            <Label prefHeight="18.0" prefWidth="122.0" text="Traje femenino de" />
+            <Label layoutX="10.0" layoutY="35.0" prefHeight="18.0" prefWidth="122.0" text="dos piezas en color" />
+            <Label layoutX="10.0" layoutY="53.0" prefHeight="18.0" prefWidth="122.0" text="rosa claro, compuesto" />
+            <Label layoutX="10.0" layoutY="72.0" prefHeight="18.0" prefWidth="122.0" text="por un top y un" />
+            <Label layoutX="10.0" layoutY="90.0" prefHeight="18.0" prefWidth="122.0" text="pantalon elegante." />
+         </children>
+      </VBox>
+      <VBox layoutX="434.0" layoutY="69.0" prefHeight="108.0" prefWidth="41.0" />
+      <VBox layoutX="434.0" layoutY="204.0" prefHeight="108.0" prefWidth="42.0" />
+      <VBox layoutX="434.0" layoutY="339.0" prefHeight="108.0" prefWidth="42.0" />
+      <VBox layoutX="24.0" layoutY="68.0" prefHeight="110.0" prefWidth="110.0">
+         <children>
+            <ImageView fitHeight="169.0" fitWidth="108.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../imagenes/Pijama%20(2).png" />
+               </image>
+            </ImageView>
+         </children>
+      </VBox>
+      <VBox layoutX="484.0" layoutY="68.0" prefHeight="110.0" prefWidth="110.0">
+         <children>
+            <ImageView fitHeight="169.0" fitWidth="108.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../imagenes/oversize.png" />
+               </image>
+            </ImageView>
+         </children>
+      </VBox>
+      <VBox layoutX="486.0" layoutY="206.0" prefHeight="110.0" prefWidth="110.0">
+         <children>
+            <ImageView fitHeight="169.0" fitWidth="108.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../imagenes/HombreC.png" />
+               </image>
+            </ImageView>
+         </children>
+      </VBox>
+      <VBox layoutX="484.0" layoutY="339.0" prefHeight="110.0" prefWidth="110.0">
+         <children>
+            <ImageView fitHeight="169.0" fitWidth="108.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../imagenes/Body.png" />
+               </image>
+            </ImageView>
+         </children>
+      </VBox>
+      <VBox layoutX="594.0" layoutY="68.0" prefHeight="110.0" prefWidth="142.0">
+         <children>
+            <Label text="OVERSIZE">
+               <font>
+                  <Font name="Franklin Gothic Heavy" size="12.0" />
+               </font>
+            </Label>
+            <VBox prefHeight="10.0" prefWidth="119.0" />
+            <Label prefHeight="18.0" prefWidth="130.0" text="Sueter Oversize " />
+            <Label layoutX="10.0" layoutY="35.0" prefHeight="18.0" prefWidth="122.0" text="Elegante , bello" />
+            <Label layoutX="10.0" layoutY="68.0" prefHeight="18.0" prefWidth="122.0" text="con estampado para" />
+            <Label layoutX="10.0" layoutY="72.0" prefHeight="18.0" prefWidth="122.0" text="un mejor estilo." />
+         </children>
+      </VBox>
+      <VBox layoutX="596.0" layoutY="206.0" prefHeight="110.0" prefWidth="142.0">
+         <children>
+            <Label text="CONJUNTO HOMBRE">
+               <font>
+                  <Font name="Franklin Gothic Heavy" size="12.0" />
+               </font>
+            </Label>
+            <VBox prefHeight="10.0" prefWidth="119.0" />
+            <Label prefHeight="18.0" prefWidth="130.0" text="Conjunto para hombre" />
+            <Label layoutX="10.0" layoutY="35.0" prefHeight="18.0" prefWidth="122.0" text="color blanco con una" />
+            <Label layoutX="10.0" layoutY="68.0" prefHeight="18.0" prefWidth="122.0" text="tela fresca " />
+            <Label layoutX="10.0" layoutY="72.0" prefHeight="18.0" prefWidth="122.0" text="hermoso , divino." />
+         </children>
+      </VBox>
+      <VBox layoutX="594.0" layoutY="337.0" prefHeight="110.0" prefWidth="142.0">
+         <children>
+            <Label text="BODY">
+               <font>
+                  <Font name="Franklin Gothic Heavy" size="12.0" />
+               </font>
+            </Label>
+            <VBox prefHeight="10.0" prefWidth="119.0" />
+            <Label prefHeight="18.0" prefWidth="130.0" text="Body para dama " />
+            <Label layoutX="10.0" layoutY="35.0" prefHeight="18.0" prefWidth="122.0" text="color negro para que" />
+            <Label layoutX="10.0" layoutY="68.0" prefHeight="18.0" prefWidth="122.0" text="reluzcas en cada lugar" />
+            <Label layoutX="10.0" layoutY="72.0" prefHeight="18.0" prefWidth="122.0" text="donde vayas." />
+         </children>
+      </VBox>
+      <VBox alignment="TOP_CENTER" layoutX="355.0" prefHeight="51.0" prefWidth="170.0">
+         <children>
+            <ImageView fitHeight="53.0" fitWidth="70.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../imagenes/Slogin.png" />
+               </image>
+            </ImageView>
+         </children>
+      </VBox>
+      <VBox alignment="TOP_CENTER" layoutX="594.0" prefHeight="53.0" prefWidth="170.0">
+         <children>
+            <ImageView fitHeight="56.0" fitWidth="68.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../imagenes/Slogin.png" />
+               </image>
+            </ImageView>
+         </children>
+      </VBox>
+      <Button fx:id="btnSiguiente" layoutX="841.0" layoutY="14.0" mnemonicParsing="false" onAction="#handleSiguiente" style="-fx-background-color: #70f7b4; -fx-text-fill: white; -fx-font-weight: bold; -fx-background-radius: 11;" text="Siguiente ⏭" />
+      <VBox alignment="TOP_CENTER" layoutX="278.0" layoutY="207.0" prefHeight="107.0" prefWidth="154.0">
+         <children>
+            <Button fx:id="btnComprarGorra" mnemonicParsing="false" prefHeight="26.0" prefWidth="134.0" style="-fx-background-color: #cccccc; -fx-text-fill: black; -fx-font-weight: bold; -fx-background-radius: 11;" text="Comprar 💲" />
+            <VBox prefHeight="14.0" prefWidth="128.0" />
+            <Button fx:id="btnAgregarCarritoGorra" layoutX="32.0" layoutY="10.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="134.0" style="-fx-background-color: #cccccc; -fx-text-fill: black; -fx-font-weight: bold; -fx-background-radius: 11;" text="Añadir al carrito 🛒" />
+            <VBox layoutX="10.0" layoutY="36.0" prefHeight="14.0" prefWidth="128.0" />
+            <Button fx:id="btnMeGustaGorra" layoutX="32.0" layoutY="51.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="134.0" style="-fx-background-color: #cccccc; -fx-text-fill: black; -fx-font-weight: bold; -fx-background-radius: 11;" text="❤" />
+         </children>
+      </VBox>
+      <VBox alignment="TOP_CENTER" layoutX="278.0" layoutY="338.0" prefHeight="107.0" prefWidth="154.0">
+         <children>
+            <Button fx:id="btnComprarConjuntoMujer" mnemonicParsing="false" prefHeight="26.0" prefWidth="134.0" style="-fx-background-color: #cccccc; -fx-text-fill: black; -fx-font-weight: bold; -fx-background-radius: 11;" text="Comprar 💲" />
+            <VBox prefHeight="14.0" prefWidth="128.0" />
+            <Button fx:id="btnAgregarCarritoConjuntoMujer" layoutX="32.0" layoutY="10.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="134.0" style="-fx-background-color: #cccccc; -fx-text-fill: black; -fx-font-weight: bold; -fx-background-radius: 11;" text="Añadir al carrito 🛒" />
+            <VBox layoutX="10.0" layoutY="36.0" prefHeight="14.0" prefWidth="128.0" />
+            <Button fx:id="btnMeGustaConjuntoMujer" layoutX="32.0" layoutY="51.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="134.0" style="-fx-background-color: #cccccc; -fx-text-fill: black; -fx-font-weight: bold; -fx-background-radius: 11;" text="❤" />
+         </children>
+      </VBox>
+      <VBox alignment="TOP_CENTER" layoutX="738.0" layoutY="69.0" prefHeight="107.0" prefWidth="154.0">
+         <children>
+            <Button fx:id="btnComprarOversize" mnemonicParsing="false" prefHeight="26.0" prefWidth="134.0" style="-fx-background-color: #cccccc; -fx-text-fill: black; -fx-font-weight: bold; -fx-background-radius: 11;" text="Comprar 💲" />
+            <VBox prefHeight="14.0" prefWidth="128.0" />
+            <Button fx:id="btnAgregarCarritoOversize" layoutX="32.0" layoutY="10.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="134.0" style="-fx-background-color: #cccccc; -fx-text-fill: black; -fx-font-weight: bold; -fx-background-radius: 11;" text="Añadir al carrito 🛒" />
+            <VBox layoutX="10.0" layoutY="36.0" prefHeight="14.0" prefWidth="128.0" />
+            <Button fx:id="btnMeGustaOversize" layoutX="32.0" layoutY="51.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="134.0" style="-fx-background-color: #cccccc; -fx-text-fill: black; -fx-font-weight: bold; -fx-background-radius: 11;" text="❤" />
+         </children>
+      </VBox>
+      <VBox alignment="TOP_CENTER" layoutX="738.0" layoutY="205.0" prefHeight="107.0" prefWidth="154.0">
+         <children>
+            <Button fx:id="btnComprarConjuntoHombre" mnemonicParsing="false" prefHeight="26.0" prefWidth="134.0" style="-fx-background-color: #cccccc; -fx-text-fill: black; -fx-font-weight: bold; -fx-background-radius: 11;" text="Comprar 💲" />
+            <VBox prefHeight="14.0" prefWidth="128.0" />
+            <Button fx:id="btnAgregarCarritoConjuntoHombre" layoutX="32.0" layoutY="10.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="134.0" style="-fx-background-color: #cccccc; -fx-text-fill: black; -fx-font-weight: bold; -fx-background-radius: 11;" text="Añadir al carrito 🛒" />
+            <VBox layoutX="10.0" layoutY="36.0" prefHeight="14.0" prefWidth="128.0" />
+            <Button fx:id="btnMeGustaConjuntoHombre" layoutX="32.0" layoutY="51.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="134.0" style="-fx-background-color: #cccccc; -fx-text-fill: black; -fx-font-weight: bold; -fx-background-radius: 11;" text="❤" />
+         </children>
+      </VBox>
+      <VBox alignment="TOP_CENTER" layoutX="738.0" layoutY="338.0" prefHeight="107.0" prefWidth="154.0">
+         <children>
+            <Button fx:id="btnComprarBody" mnemonicParsing="false" prefHeight="26.0" prefWidth="134.0" style="-fx-background-color: #cccccc; -fx-text-fill: black; -fx-font-weight: bold; -fx-background-radius: 11;" text="Comprar 💲" />
+            <VBox prefHeight="14.0" prefWidth="128.0" />
+            <Button fx:id="btnAgregarCarritoBody" layoutX="32.0" layoutY="10.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="134.0" style="-fx-background-color: #cccccc; -fx-text-fill: black; -fx-font-weight: bold; -fx-background-radius: 11;" text="Añadir al carrito 🛒" />
+            <VBox layoutX="10.0" layoutY="36.0" prefHeight="14.0" prefWidth="128.0" />
+            <Button fx:id="btnMeGustaBody" layoutX="32.0" layoutY="51.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="134.0" style="-fx-background-color: #cccccc; -fx-text-fill: black; -fx-font-weight: bold; -fx-background-radius: 11;" text="❤" />
+         </children>
+      </VBox>
+      <Button fx:id="btnIrCarrito" layoutX="58.0" layoutY="13.0" mnemonicParsing="false" onAction="#handleIrAlCarrito" prefHeight="26.0" prefWidth="42.0" style="-fx-background-radius: 9;" text="🛒" />
+      <Button fx:id="btnMeGusta" layoutX="109.0" layoutY="13.0" mnemonicParsing="false" onAction="#handleMeGusta" prefHeight="26.0" prefWidth="42.0" style="-fx-background-radius: 9;" text="❤" />
+      <Button fx:id="btnIrHistorial" layoutX="3.0" layoutY="13.0" mnemonicParsing="false" onAction="#handleIrHistorial" prefHeight="26.0" prefWidth="42.0" style="-fx-background-radius: 9;" text="💲🤑" />
+   </children>
+</AnchorPane>
