@@ -7,10 +7,9 @@ package model;
 public class ListaUsuarios {
     private NodoUsuario cabeza;
 
-    // Agrega un nuevo usuario a la lista si no existe
     public void agregarUsuario(String usuario, String contraseña) {
         Usuario nuevo = new Usuario(usuario, contraseña);
-        NodoUsuario nodo = new NodoUsuario(nuevo, null); // Constructor corregido
+        NodoUsuario nodo = new NodoUsuario(nuevo, null); 
 
         if (cabeza == null) {
             cabeza = nodo;
@@ -23,7 +22,6 @@ public class ListaUsuarios {
         }
     }
 
-    // Verifica si existe un usuario con esa contraseña
     public boolean validarUsuario(String usuario, String contraseña) {
         NodoUsuario actual = cabeza;
         while (actual != null) {
@@ -36,7 +34,6 @@ public class ListaUsuarios {
         return false;
     }
 
-    // Verifica si un usuario ya fue registrado
     public boolean usuarioYaExiste(String usuario) {
         NodoUsuario actual = cabeza;
         while (actual != null) {
