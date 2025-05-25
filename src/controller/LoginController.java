@@ -45,7 +45,7 @@ public class LoginController {
 
     @FXML
     private void handleGoToRegister(ActionEvent event) {
-        MainApp.showRegister(); // Asegúrate de tener este método en tu clase MainApp
+        MainApp.showRegister(); 
     }
 
     private void mostrarAlerta(String titulo, String mensaje) {
@@ -56,7 +56,7 @@ public class LoginController {
         alerta.showAndWait();
     }
 
-    // Acceso compartido para el registro
+   
     private static ListaUsuarios listaUsuarios = new ListaUsuarios();
     public static ListaUsuarios getListaUsuarios() {
         return listaUsuarios;

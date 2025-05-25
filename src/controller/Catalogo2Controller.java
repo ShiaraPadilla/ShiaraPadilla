@@ -26,68 +26,68 @@ import model.Sesion;
  */
 public class Catalogo2Controller {
 
-    // Botones para Bolso dama
+   
     @FXML private Button btnComprarBolso;
     @FXML private Button btnAgregarCarritoBolso;
     @FXML private Button btnMeGustaBolso;
 
-    // Botones para Blusa dama
+ 
     @FXML private Button btnComprarBlusa;
     @FXML private Button btnAgregarCarritoBlusa;
     @FXML private Button btnMeGustaBlusa;
 
-    // Botones para Falda dama
+ 
     @FXML private Button btnComprarFalda;
     @FXML private Button btnAgregarCarritoFalda;
     @FXML private Button btnMeGustaFalda;
 
-    // Botones para Tacones
+ 
     @FXML private Button btnComprarTacones;
     @FXML private Button btnAgregarCarritoTacones;
     @FXML private Button btnMeGustaTacones;
 
-    // Botones para Zapatos deportivos
+
     @FXML private Button btnComprarZapatos;
     @FXML private Button btnAgregarCarritoZapatos;
     @FXML private Button btnMeGustaZapatos;
 
-    // Botones para Jeans caballero
+ 
     @FXML private Button btnComprarJeans;
     @FXML private Button btnAgregarCarritoJeans;
     @FXML private Button btnMeGustaJeans;
 
-    // Listas para carrito y favoritos
+  
     private List<Producto> carrito = new ArrayList<>();
     private List<Producto> favoritos = new ArrayList<>();
 
     @FXML
     public void initialize() {
-        // Bolso dama
+     
         btnComprarBolso.setOnAction(e -> comprarProducto(new Producto("Bolso dama", 35.99)));
         btnAgregarCarritoBolso.setOnAction(e -> agregarAlCarrito(new Producto("Bolso dama", 35.99)));
         btnMeGustaBolso.setOnAction(e -> agregarAFavoritos(new Producto("Bolso dama", 35.99)));
 
-        // Blusa dama
+   
         btnComprarBlusa.setOnAction(e -> comprarProducto(new Producto("Blusa dama", 25.99)));
         btnAgregarCarritoBlusa.setOnAction(e -> agregarAlCarrito(new Producto("Blusa dama", 25.99)));
         btnMeGustaBlusa.setOnAction(e -> agregarAFavoritos(new Producto("Blusa dama", 25.99)));
 
-        // Falda dama
+   
         btnComprarFalda.setOnAction(e -> comprarProducto(new Producto("Falda dama", 29.99)));
         btnAgregarCarritoFalda.setOnAction(e -> agregarAlCarrito(new Producto("Falda dama", 29.99)));
         btnMeGustaFalda.setOnAction(e -> agregarAFavoritos(new Producto("Falda dama", 29.99)));
 
-        // Tacones
+   
         btnComprarTacones.setOnAction(e -> comprarProducto(new Producto("Tacones", 40.99)));
         btnAgregarCarritoTacones.setOnAction(e -> agregarAlCarrito(new Producto("Tacones", 40.99)));
         btnMeGustaTacones.setOnAction(e -> agregarAFavoritos(new Producto("Tacones", 40.99)));
 
-        // Zapatos deportivos
+   
         btnComprarZapatos.setOnAction(e -> comprarProducto(new Producto("Zapatos deportivos", 55.99)));
         btnAgregarCarritoZapatos.setOnAction(e -> agregarAlCarrito(new Producto("Zapatos deportivos", 55.99)));
         btnMeGustaZapatos.setOnAction(e -> agregarAFavoritos(new Producto("Zapatos deportivos", 55.99)));
 
-        // Jeans caballero
+   
         btnComprarJeans.setOnAction(e -> comprarProducto(new Producto("Jeans caballero", 45.99)));
         btnAgregarCarritoJeans.setOnAction(e -> agregarAlCarrito(new Producto("Jeans caballero", 45.99)));
         btnMeGustaJeans.setOnAction(e -> agregarAFavoritos(new Producto("Jeans caballero", 45.99)));
@@ -151,22 +151,22 @@ private void handleIrHistorial(ActionEvent event) {
 }
  
 private void comprarProducto(Producto producto) {
-    // Agregar el producto al historial
+  
     DatosCompartidos.agregarAlHistorial(producto);
 
-    // Mostrar alerta de compra
+  
     Alert alerta = new Alert(AlertType.INFORMATION);
     alerta.setTitle("Compra Realizada");
     alerta.setHeaderText(null);
     alerta.setContentText("Comprando: " + producto.getNombre() + " por $" + producto.getPrecio());
     alerta.showAndWait();
 
-    // Cambiar a la pantalla del historial
+  
     try {
         FXMLLoader loader = new FXMLLoader(getClass().getResource("/View/Historial.fxml"));
         Parent root = loader.load();
 
-        Stage stage = (Stage) btnComprarBolso.getScene().getWindow(); // o cualquier botón que esté en la escena actual
+        Stage stage = (Stage) btnComprarBolso.getScene().getWindow(); 
 
         stage.setScene(new Scene(root));
         stage.setTitle("Historial de Compra");

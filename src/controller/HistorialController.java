@@ -45,11 +45,11 @@ public class HistorialController {
 
     @FXML
     public void initialize() {
-        // Configurar columnas
+      
         colNombre.setCellValueFactory(new PropertyValueFactory<>("nombre"));
         colPrecio.setCellValueFactory(new PropertyValueFactory<>("precio"));
 
-        // Obtener historial compartido desde DatosCompartidos
+      
         historialCompras = DatosCompartidos.getHistorialCompras();
         tablaCarrito.setItems(historialCompras);
     }

@@ -48,7 +48,7 @@ public class RegisterController {
         listaUsuarios.agregarUsuario(usuario, contraseña);
         mostrarAlerta("Éxito", "Usuario registrado correctamente.");
 
-        // Redirige a la pantalla de login
+
         MainApp.showLogin();
     }
 

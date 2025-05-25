@@ -48,14 +48,11 @@ public class CarritoController {
         colNombre.setCellValueFactory(new PropertyValueFactory<>("nombre"));
         colPrecio.setCellValueFactory(new PropertyValueFactory<>("precio"));
 
-        // Carga lo que haya en la pila global
         carritoProductos.addAll(Sesion.getCarrito().obtenerProductos());
         tablaCarrito.setItems(carritoProductos);
 
-        // Permitir selección múltiple para comprar varios productos a la vez
         tablaCarrito.getSelectionModel().setSelectionMode(SelectionMode.MULTIPLE);
 
-        // Deshabilita el botón si nada está seleccionado
         btnEliminar.disableProperty().bind(tablaCarrito.getSelectionModel().selectedItemProperty().isNull());
     }
 
@@ -108,10 +105,8 @@ public class CarritoController {
             return;
         }
 
-        // Añadir los productos seleccionados al historial de compras
         seleccionados.forEach(Sesion::agregarAlHistorial);
 
-        // Eliminar los productos comprados del carrito y sincronizar
         carritoProductos.removeAll(seleccionados);
         sincronizarPilaConTabla();
 
