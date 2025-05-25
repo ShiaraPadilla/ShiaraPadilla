@@ -22,5 +22,5 @@
         <Button fx:id="btnEliminar" onAction="#handleEliminarHistorial" prefHeight="27.0" prefWidth="116.0" style="-fx-background-radius: 9;" text="Eliminar historial" />
         <Button fx:id="btnVolver" onAction="#handleCatalogo" style="-fx-background-radius: 9;" text="Volver al Catálogo" />
     </HBox>
-
+    
 </VBox>

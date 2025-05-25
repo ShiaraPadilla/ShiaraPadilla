@@ -8,17 +8,17 @@ import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 
 public class DatosCompartidos {
-
     private static ObservableList<Producto> historialCompras = FXCollections.observableArrayList();
-
-    public static ObservableList<Producto> getHistorialCompras() {
-        return historialCompras;
-    }
 
     public static void agregarAlHistorial(Producto producto) {
         historialCompras.add(producto);
     }
+
+    public static ObservableList<Producto> obtenerHistorial() {
+        return historialCompras;
+    }
+
+    public static void limpiarHistorial() {
+        historialCompras.clear();
+    }
 }
-
-    
-

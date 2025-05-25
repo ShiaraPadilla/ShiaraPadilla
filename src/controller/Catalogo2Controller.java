@@ -63,34 +63,34 @@ public class Catalogo2Controller {
     @FXML
     public void initialize() {
      
-        btnComprarBolso.setOnAction(e -> comprarProducto(new Producto("Bolso dama", 35.99)));
-        btnAgregarCarritoBolso.setOnAction(e -> agregarAlCarrito(new Producto("Bolso dama", 35.99)));
-        btnMeGustaBolso.setOnAction(e -> agregarAFavoritos(new Producto("Bolso dama", 35.99)));
+        btnComprarBolso.setOnAction(e -> comprarProducto(new Producto("Bolso dama", 35.999)));
+        btnAgregarCarritoBolso.setOnAction(e -> agregarAlCarrito(new Producto("Bolso dama", 35.999)));
+        btnMeGustaBolso.setOnAction(e -> agregarAFavoritos(new Producto("Bolso dama", 35.999)));
 
    
-        btnComprarBlusa.setOnAction(e -> comprarProducto(new Producto("Blusa dama", 25.99)));
-        btnAgregarCarritoBlusa.setOnAction(e -> agregarAlCarrito(new Producto("Blusa dama", 25.99)));
-        btnMeGustaBlusa.setOnAction(e -> agregarAFavoritos(new Producto("Blusa dama", 25.99)));
+        btnComprarBlusa.setOnAction(e -> comprarProducto(new Producto("Blusa dama", 25.999)));
+        btnAgregarCarritoBlusa.setOnAction(e -> agregarAlCarrito(new Producto("Blusa dama", 25.999)));
+        btnMeGustaBlusa.setOnAction(e -> agregarAFavoritos(new Producto("Blusa dama", 25.999)));
 
    
-        btnComprarFalda.setOnAction(e -> comprarProducto(new Producto("Falda dama", 29.99)));
-        btnAgregarCarritoFalda.setOnAction(e -> agregarAlCarrito(new Producto("Falda dama", 29.99)));
-        btnMeGustaFalda.setOnAction(e -> agregarAFavoritos(new Producto("Falda dama", 29.99)));
+        btnComprarFalda.setOnAction(e -> comprarProducto(new Producto("Falda dama", 29.999)));
+        btnAgregarCarritoFalda.setOnAction(e -> agregarAlCarrito(new Producto("Falda dama", 29.999)));
+        btnMeGustaFalda.setOnAction(e -> agregarAFavoritos(new Producto("Falda dama", 29.999)));
 
    
-        btnComprarTacones.setOnAction(e -> comprarProducto(new Producto("Tacones", 40.99)));
-        btnAgregarCarritoTacones.setOnAction(e -> agregarAlCarrito(new Producto("Tacones", 40.99)));
-        btnMeGustaTacones.setOnAction(e -> agregarAFavoritos(new Producto("Tacones", 40.99)));
+        btnComprarTacones.setOnAction(e -> comprarProducto(new Producto("Tacones", 40.999)));
+        btnAgregarCarritoTacones.setOnAction(e -> agregarAlCarrito(new Producto("Tacones", 40.999)));
+        btnMeGustaTacones.setOnAction(e -> agregarAFavoritos(new Producto("Tacones", 40.999)));
 
    
-        btnComprarZapatos.setOnAction(e -> comprarProducto(new Producto("Zapatos deportivos", 55.99)));
-        btnAgregarCarritoZapatos.setOnAction(e -> agregarAlCarrito(new Producto("Zapatos deportivos", 55.99)));
-        btnMeGustaZapatos.setOnAction(e -> agregarAFavoritos(new Producto("Zapatos deportivos", 55.99)));
+        btnComprarZapatos.setOnAction(e -> comprarProducto(new Producto("Zapatos deportivos", 55.999)));
+        btnAgregarCarritoZapatos.setOnAction(e -> agregarAlCarrito(new Producto("Zapatos deportivos", 55.999)));
+        btnMeGustaZapatos.setOnAction(e -> agregarAFavoritos(new Producto("Zapatos deportivos", 55.999)));
 
    
-        btnComprarJeans.setOnAction(e -> comprarProducto(new Producto("Jeans caballero", 45.99)));
-        btnAgregarCarritoJeans.setOnAction(e -> agregarAlCarrito(new Producto("Jeans caballero", 45.99)));
-        btnMeGustaJeans.setOnAction(e -> agregarAFavoritos(new Producto("Jeans caballero", 45.99)));
+        btnComprarJeans.setOnAction(e -> comprarProducto(new Producto("Jeans caballero", 45.999)));
+        btnAgregarCarritoJeans.setOnAction(e -> agregarAlCarrito(new Producto("Jeans caballero", 45.999)));
+        btnMeGustaJeans.setOnAction(e -> agregarAFavoritos(new Producto("Jeans caballero", 45.999)));
     }
      @FXML
     private void handleVolver(ActionEvent event) {

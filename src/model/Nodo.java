@@ -33,4 +33,16 @@ public class Nodo<T> {
     public void setSiguiente(Nodo<T> siguiente) {
         this.siguiente = siguiente;
     }
+
+    void setAnterior(Nodo frente) {
+        throw new UnsupportedOperationException("Not supported yet.");
+    }
+
+    Producto getProducto() {
+        throw new UnsupportedOperationException("Not supported yet."); 
+    }
+
+    Object getAnterior() {
+        throw new UnsupportedOperationException("Not supported yet."); 
+    }
 }

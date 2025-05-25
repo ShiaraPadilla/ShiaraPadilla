@@ -5,10 +5,13 @@
 package controller;
 
 import java.io.IOException;
+import java.util.Collection;
+import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
+import javafx.scene.Node;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Alert;
@@ -41,42 +44,34 @@ public class HistorialController {
     @FXML
     private Button btnVolver;
 
-    private ObservableList<Producto> historialCompras;
 
-    @FXML
-    public void initialize() {
-      
-        colNombre.setCellValueFactory(new PropertyValueFactory<>("nombre"));
-        colPrecio.setCellValueFactory(new PropertyValueFactory<>("precio"));
+@FXML
+public void initialize() {
+    colNombre.setCellValueFactory(new PropertyValueFactory<>("nombre"));
+    colPrecio.setCellValueFactory(new PropertyValueFactory<>("precio"));
 
-      
-        historialCompras = DatosCompartidos.getHistorialCompras();
-        tablaCarrito.setItems(historialCompras);
-    }
-    @FXML
+    tablaCarrito.setItems(DatosCompartidos.obtenerHistorial());
+}
+
+@FXML
 private void handleEliminarHistorial(ActionEvent event) {
-    Producto seleccionado = tablaCarrito.getSelectionModel().getSelectedItem();
+    DatosCompartidos.limpiarHistorial();
+    tablaCarrito.setItems(DatosCompartidos.obtenerHistorial());
+}
 
-    if (seleccionado != null) {
-        historialCompras.remove(seleccionado);
-    } else {
-        Alert alerta = new Alert(Alert.AlertType.WARNING);
-        alerta.setTitle("Advertencia");
-        alerta.setHeaderText(null);
-        alerta.setContentText("Selecciona un producto para eliminar del historial.");
-        alerta.showAndWait();
+@FXML
+private void handleCatalogo(ActionEvent event) {
+    try {
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("/View/Catalogo1.fxml"));
+        Parent root = loader.load();
+        Stage stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
+        stage.setScene(new Scene(root));
+        stage.setTitle("Catálogo");
+        stage.show();
+    } catch (Exception e) {
+        e.printStackTrace();
     }
 }
-    @FXML
-    private void handleCatalogo(ActionEvent event) {
-        try {
-            Parent root = FXMLLoader.load(getClass().getResource("/View/Catalogo1.fxml"));
-            Stage stage = (Stage) btnVolver.getScene().getWindow();
-            stage.setScene(new Scene(root));
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
     }
-}
 
   
