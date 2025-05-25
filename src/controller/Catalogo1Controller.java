@@ -28,7 +28,7 @@ import model.Sesion;
  */
 public class Catalogo1Controller {
 
-  
+
     @FXML private Button btnComprarPijama;
     @FXML private Button btnAgregarCarritoPijama;
     @FXML private Button btnMeGustaPijama;
@@ -38,58 +38,57 @@ public class Catalogo1Controller {
     @FXML private Button btnAgregarCarritoGorra;
     @FXML private Button btnMeGustaGorra;
 
- 
+
     @FXML private Button btnComprarConjuntoMujer;
     @FXML private Button btnAgregarCarritoConjuntoMujer;
     @FXML private Button btnMeGustaConjuntoMujer;
 
-  
+
     @FXML private Button btnComprarOversize;
     @FXML private Button btnAgregarCarritoOversize;
     @FXML private Button btnMeGustaOversize;
 
- 
+
     @FXML private Button btnComprarConjuntoHombre;
     @FXML private Button btnAgregarCarritoConjuntoHombre;
     @FXML private Button btnMeGustaConjuntoHombre;
 
- 
+
     @FXML private Button btnComprarBody;
     @FXML private Button btnAgregarCarritoBody;
     @FXML private Button btnMeGustaBody;
 
-   
+
     private List<Producto> carrito = new ArrayList<>();
     private List<Producto> favoritos = new ArrayList<>();
 
     @FXML
     public void initialize() {
-      
+
         btnComprarPijama.setOnAction(e -> comprarProducto(new Producto("Pijama mujer", 29.99)));
         btnAgregarCarritoPijama.setOnAction(e -> agregarAlCarrito(new Producto("Pijama mujer", 29.99)));
         btnMeGustaPijama.setOnAction(e -> agregarAFavoritos(new Producto("Pijama mujer", 29.99)));
 
-      
+
         btnComprarGorra.setOnAction(e -> comprarProducto(new Producto("Gorra beisbolera", 15.99)));
         btnAgregarCarritoGorra.setOnAction(e -> agregarAlCarrito(new Producto("Gorra beisbolera", 15.99)));
         btnMeGustaGorra.setOnAction(e -> agregarAFavoritos(new Producto("Gorra beisbolera", 15.99)));
 
-       
         btnComprarConjuntoMujer.setOnAction(e -> comprarProducto(new Producto("Conjunto mujer", 49.99)));
         btnAgregarCarritoConjuntoMujer.setOnAction(e -> agregarAlCarrito(new Producto("Conjunto mujer", 49.99)));
         btnMeGustaConjuntoMujer.setOnAction(e -> agregarAFavoritos(new Producto("Conjunto mujer", 49.99)));
 
-       
+
         btnComprarOversize.setOnAction(e -> comprarProducto(new Producto("Oversize", 39.99)));
         btnAgregarCarritoOversize.setOnAction(e -> agregarAlCarrito(new Producto("Oversize", 39.99)));
         btnMeGustaOversize.setOnAction(e -> agregarAFavoritos(new Producto("Oversize", 39.99)));
 
-      
+
         btnComprarConjuntoHombre.setOnAction(e -> comprarProducto(new Producto("Conjunto hombre", 54.99)));
         btnAgregarCarritoConjuntoHombre.setOnAction(e -> agregarAlCarrito(new Producto("Conjunto hombre", 54.99)));
         btnMeGustaConjuntoHombre.setOnAction(e -> agregarAFavoritos(new Producto("Conjunto hombre", 54.99)));
 
-       
+
         btnComprarBody.setOnAction(e -> comprarProducto(new Producto("Body", 22.99)));
         btnAgregarCarritoBody.setOnAction(e -> agregarAlCarrito(new Producto("Body", 22.99)));
         btnMeGustaBody.setOnAction(e -> agregarAFavoritos(new Producto("Body", 22.99)));
@@ -155,19 +154,19 @@ private void handleIrHistorial(ActionEvent event) {
  
     DatosCompartidos.agregarAlHistorial(producto);
 
-   
+
     Alert alerta = new Alert(AlertType.INFORMATION);
     alerta.setTitle("Compra Realizada");
     alerta.setHeaderText(null);
     alerta.setContentText("Has comprado: " + producto.getNombre() + " por $" + producto.getPrecio());
     alerta.showAndWait();
 
-   
+
     try {
         FXMLLoader loader = new FXMLLoader(getClass().getResource("/View/Historial.fxml"));
         Parent root = loader.load();
 
-     
+
         Stage stage = (Stage) btnComprarPijama.getScene().getWindow();
 
         stage.setScene(new Scene(root));

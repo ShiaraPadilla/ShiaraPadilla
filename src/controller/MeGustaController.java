@@ -44,8 +44,7 @@ public class MeGustaController {
         colNombreFav.setCellValueFactory(new PropertyValueFactory<>("nombre"));
         colPrecioFav.setCellValueFactory(new PropertyValueFactory<>("precio"));
 
-        // colAccionFav puede ser configurada si quieres agregar botones en cada fila
-
+ 
         favoritosProductos.addAll(Sesion.getFavoritos().obtenerProductos());
         tablaFavoritos.setItems(favoritosProductos);
 

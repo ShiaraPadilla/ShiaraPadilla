@@ -53,6 +53,12 @@ public class CarritoController {
         tablaCarrito.setItems(carritoProductos);
 
 
+
+        carritoProductos.addAll(Sesion.getCarrito().obtenerProductos());
+        tablaCarrito.setItems(carritoProductos);
+
+
+
         tablaCarrito.getSelectionModel().setSelectionMode(SelectionMode.MULTIPLE);
 
         btnEliminar.disableProperty().bind(tablaCarrito.getSelectionModel().selectedItemProperty().isNull());
@@ -106,6 +112,10 @@ public class CarritoController {
             new Alert(Alert.AlertType.WARNING, "No has seleccionado ningún producto para comprar.").showAndWait();
             return;
         }
+
+
+        seleccionados.forEach(Sesion::agregarAlHistorial);
+
 
  
         seleccionados.forEach(Sesion::agregarAlHistorial);
