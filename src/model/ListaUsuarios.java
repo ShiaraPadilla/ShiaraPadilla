@@ -7,7 +7,7 @@ package model;
 public class ListaUsuarios {
     private NodoUsuario cabeza;
 
-   
+
     public void agregarUsuario(String usuario, String contraseña) {
         Usuario nuevo = new Usuario(usuario, contraseña);
         NodoUsuario nodo = new NodoUsuario(nuevo, null); 

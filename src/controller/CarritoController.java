@@ -48,8 +48,16 @@ public class CarritoController {
         colNombre.setCellValueFactory(new PropertyValueFactory<>("nombre"));
         colPrecio.setCellValueFactory(new PropertyValueFactory<>("precio"));
 
+
         carritoProductos.addAll(Sesion.getCarrito().obtenerProductos());
         tablaCarrito.setItems(carritoProductos);
+
+
+
+        carritoProductos.addAll(Sesion.getCarrito().obtenerProductos());
+        tablaCarrito.setItems(carritoProductos);
+
+
 
         tablaCarrito.getSelectionModel().setSelectionMode(SelectionMode.MULTIPLE);
 
@@ -105,7 +113,13 @@ public class CarritoController {
             return;
         }
 
+
         seleccionados.forEach(Sesion::agregarAlHistorial);
+
+
+ 
+        seleccionados.forEach(Sesion::agregarAlHistorial);
+
 
         carritoProductos.removeAll(seleccionados);
         sincronizarPilaConTabla();
