@@ -20,10 +20,9 @@ public class MainApp extends Application {
     @Override
     public void start(Stage stage) throws IOException {
         primaryStage = stage;
-        showLogin(); // Mostrar pantalla de inicio al iniciar
+        showLogin();
     }
 
-    // Método para mostrar la pantalla de login
     public static void showLogin() {
         try {
             FXMLLoader loader = new FXMLLoader(MainApp.class.getResource("/View/Login.fxml"));
@@ -35,8 +34,7 @@ public class MainApp extends Application {
             e.printStackTrace();
         }
     }
-
-    // Método para mostrar la pantalla de registro
+    
     public static void showRegister() {
         try {
             FXMLLoader loader = new FXMLLoader(MainApp.class.getResource("/View/Register.fxml"));
