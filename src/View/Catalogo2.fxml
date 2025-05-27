@@ -41,7 +41,7 @@
                   </ImageView>
                </children>
             </VBox>
-            <VBox layoutX="136.0" layoutY="70.0" prefHeight="110.0" prefWidth="142.0">
+            <VBox layoutX="136.0" layoutY="70.0" prefHeight="118.0" prefWidth="142.0">
                <children>
                   <Label text="BOLSO DAMA">
                      <font>
@@ -53,18 +53,19 @@
                   <Label layoutX="10.0" layoutY="35.0" prefHeight="18.0" prefWidth="122.0" text="color rosado un" />
                   <Label layoutX="10.0" layoutY="68.0" prefHeight="18.0" prefWidth="122.0" text="bolso que te hace ver " />
                   <Label layoutX="10.0" layoutY="72.0" prefHeight="18.0" prefWidth="122.0" text="con estilo y muy bella." />
+                  <Label text="\$ 35.999" />
                </children>
             </VBox>
             <VBox alignment="TOP_CENTER" layoutX="276.0" layoutY="70.0" prefHeight="107.0" prefWidth="154.0">
                <children>
-                  <Button fx:id="btnComprarBolso" mnemonicParsing="false" prefHeight="26.0" prefWidth="134.0" style="-fx-background-color: #cccccc; -fx-text-fill: black; -fx-font-weight: bold; -fx-background-radius: 11;" text="Comprar 💲" />
+                  <Button fx:id="btnComprarBolso" mnemonicParsing="false" prefHeight="26.0" prefWidth="134.0" style="-fx-background-color: #00cc30; -fx-text-fill: black; -fx-font-weight: bold; -fx-background-radius: 11;" text="Comprar 💲" />
                   <VBox prefHeight="14.0" prefWidth="128.0" />
-                  <Button fx:id="btnAgregarCarritoBolso" layoutX="32.0" layoutY="10.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="134.0" style="-fx-background-color: #cccccc; -fx-text-fill: black; -fx-font-weight: bold; -fx-background-radius: 11;" text="Añadir al carrito 🛒" />
+                  <Button fx:id="btnAgregarCarritoBolso" layoutX="32.0" layoutY="10.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="134.0" style="-fx-background-color: #00c8ff; -fx-text-fill: black; -fx-font-weight: bold; -fx-background-radius: 11;" text="Añadir al carrito 🛒" />
                   <VBox layoutX="10.0" layoutY="36.0" prefHeight="14.0" prefWidth="128.0" />
-                  <Button fx:id="btnMeGustaBolso" layoutX="32.0" layoutY="51.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="134.0" style="-fx-background-color: #cccccc; -fx-text-fill: black; -fx-font-weight: bold; -fx-background-radius: 11;" text="❤" />
+                  <Button fx:id="btnMeGustaBolso" layoutX="32.0" layoutY="51.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="134.0" style="-fx-background-color: #ff0000; -fx-text-fill: black; -fx-font-weight: bold; -fx-background-radius: 11;" text="❤" />
                </children>
             </VBox>
-            <VBox layoutX="136.0" layoutY="206.0" prefHeight="110.0" prefWidth="142.0">
+            <VBox layoutX="136.0" layoutY="206.0" prefHeight="118.0" prefWidth="142.0">
                <children>
                   <Label text="BLUSA DAMA">
                      <font>
@@ -76,6 +77,7 @@
                   <Label layoutX="10.0" layoutY="35.0" prefHeight="18.0" prefWidth="122.0" text="fuscia elegante , bella" />
                   <Label layoutX="10.0" layoutY="72.0" prefHeight="18.0" prefWidth="122.0" text="y ademas luce con" />
                   <Label layoutX="10.0" layoutY="90.0" prefHeight="18.0" prefWidth="122.0" text="tu personalidad." />
+                  <Label text="\$ 25.999" />
                </children>
             </VBox>
             <VBox layoutX="136.0" layoutY="338.0" prefHeight="110.0" prefWidth="119.0">
@@ -89,8 +91,8 @@
                   <Label prefHeight="18.0" prefWidth="122.0" text="Falda femenina que " />
                   <Label layoutX="10.0" layoutY="35.0" prefHeight="18.0" prefWidth="122.0" text="te hace lucir mas " />
                   <Label layoutX="10.0" layoutY="53.0" prefHeight="18.0" prefWidth="122.0" text="sexy , bella , elegante" />
-                  <Label layoutX="10.0" layoutY="72.0" prefHeight="18.0" prefWidth="122.0" text="y ademas te hace" />
-                  <Label layoutX="10.0" layoutY="90.0" prefHeight="18.0" prefWidth="122.0" text="brillar." />
+                  <Label layoutX="10.0" layoutY="72.0" prefHeight="18.0" prefWidth="122.0" text="y te hace brillar." />
+                  <Label layoutX="10.0" layoutY="90.0" prefHeight="18.0" prefWidth="122.0" text="\$ 29.999" />
                </children>
             </VBox>
             <VBox layoutX="434.0" layoutY="69.0" prefHeight="108.0" prefWidth="41.0" />
@@ -132,7 +134,7 @@
                   </ImageView>
                </children>
             </VBox>
-            <VBox layoutX="594.0" layoutY="68.0" prefHeight="110.0" prefWidth="142.0">
+            <VBox layoutX="594.0" layoutY="68.0" prefHeight="118.0" prefWidth="142.0">
                <children>
                   <Label text="TACONES">
                      <font>
@@ -144,9 +146,10 @@
                   <Label layoutX="10.0" layoutY="35.0" prefHeight="18.0" prefWidth="122.0" text="Elegante , bello" />
                   <Label layoutX="10.0" layoutY="68.0" prefHeight="18.0" prefWidth="122.0" text="para la mejor ocasion " />
                   <Label layoutX="10.0" layoutY="72.0" prefHeight="18.0" prefWidth="122.0" text="y un mejor estilo." />
+                  <Label text="\$ 40.999" />
                </children>
             </VBox>
-            <VBox layoutX="596.0" layoutY="206.0" prefHeight="110.0" prefWidth="142.0">
+            <VBox layoutX="596.0" layoutY="206.0" prefHeight="118.0" prefWidth="142.0">
                <children>
                   <Label text="ZAPATOS DEPORTIVOS">
                      <font>
@@ -158,6 +161,7 @@
                   <Label layoutX="10.0" layoutY="35.0" prefHeight="18.0" prefWidth="122.0" text="hacer ejercicios y estar " />
                   <Label layoutX="10.0" layoutY="68.0" prefHeight="18.0" prefWidth="122.0" text="comodo en todo " />
                   <Label layoutX="10.0" layoutY="72.0" prefHeight="18.0" prefWidth="122.0" text="momento color blanco." />
+                  <Label text="\$ 55.999" />
                </children>
             </VBox>
             <VBox layoutX="594.0" layoutY="337.0" prefHeight="110.0" prefWidth="142.0">
@@ -172,6 +176,7 @@
                   <Label layoutX="10.0" layoutY="35.0" prefHeight="18.0" prefWidth="122.0" text="color negro para que" />
                   <Label layoutX="10.0" layoutY="68.0" prefHeight="18.0" prefWidth="122.0" text="reluzcas en cada lugar" />
                   <Label layoutX="10.0" layoutY="72.0" prefHeight="18.0" prefWidth="122.0" text="donde vayas." />
+                  <Label text="\$ 45.999" />
                </children>
             </VBox>
             <VBox alignment="TOP_CENTER" layoutX="355.0" prefHeight="51.0" prefWidth="170.0">
@@ -195,52 +200,52 @@
             <Button fx:id="btnVolver" layoutX="45.0" layoutY="14.0" mnemonicParsing="false" onAction="#handleVolver" style="-fx-background-color: #ff6600; -fx-text-fill: white; -fx-font-weight: bold; -fx-background-radius: 11;" text="🔙 Volver" />
             <VBox alignment="TOP_CENTER" layoutX="278.0" layoutY="207.0" prefHeight="107.0" prefWidth="154.0">
                <children>
-                  <Button fx:id="btnComprarBlusa" mnemonicParsing="false" prefHeight="26.0" prefWidth="134.0" style="-fx-background-color: #cccccc; -fx-text-fill: black; -fx-font-weight: bold; -fx-background-radius: 11;" text="Comprar 💲" />
+                  <Button fx:id="btnComprarBlusa" mnemonicParsing="false" prefHeight="26.0" prefWidth="134.0" style="-fx-background-color: #00cc30; -fx-text-fill: black; -fx-font-weight: bold; -fx-background-radius: 11;" text="Comprar 💲" />
                   <VBox prefHeight="14.0" prefWidth="128.0" />
-                  <Button fx:id="btnAgregarCarritoBlusa" layoutX="32.0" layoutY="10.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="134.0" style="-fx-background-color: #cccccc; -fx-text-fill: black; -fx-font-weight: bold; -fx-background-radius: 11;" text="Añadir al carrito 🛒" />
+                  <Button fx:id="btnAgregarCarritoBlusa" layoutX="32.0" layoutY="10.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="134.0" style="-fx-background-color: #00c8ff; -fx-text-fill: black; -fx-font-weight: bold; -fx-background-radius: 11;" text="Añadir al carrito 🛒" />
                   <VBox layoutX="10.0" layoutY="36.0" prefHeight="14.0" prefWidth="128.0" />
-                  <Button fx:id="btnMeGustaBlusa" layoutX="32.0" layoutY="51.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="134.0" style="-fx-background-color: #cccccc; -fx-text-fill: black; -fx-font-weight: bold; -fx-background-radius: 11;" text="❤" />
+                  <Button fx:id="btnMeGustaBlusa" layoutX="32.0" layoutY="51.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="134.0" style="-fx-background-color: #ff0000; -fx-text-fill: black; -fx-font-weight: bold; -fx-background-radius: 11;" text="❤" />
                </children>
             </VBox>
             <VBox alignment="TOP_CENTER" layoutX="278.0" layoutY="338.0" prefHeight="107.0" prefWidth="154.0">
                <children>
-                  <Button fx:id="btnComprarFalda" mnemonicParsing="false" prefHeight="26.0" prefWidth="134.0" style="-fx-background-color: #cccccc; -fx-text-fill: black; -fx-font-weight: bold; -fx-background-radius: 11;" text="Comprar 💲" />
+                  <Button fx:id="btnComprarFalda" mnemonicParsing="false" prefHeight="26.0" prefWidth="134.0" style="-fx-background-color: #00cc30; -fx-text-fill: black; -fx-font-weight: bold; -fx-background-radius: 11;" text="Comprar 💲" />
                   <VBox prefHeight="14.0" prefWidth="128.0" />
-                  <Button fx:id="btnAgregarCarritoFalda" layoutX="32.0" layoutY="10.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="134.0" style="-fx-background-color: #cccccc; -fx-text-fill: black; -fx-font-weight: bold; -fx-background-radius: 11;" text="Añadir al carrito 🛒" />
+                  <Button fx:id="btnAgregarCarritoFalda" layoutX="32.0" layoutY="10.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="134.0" style="-fx-background-color: #00c8ff; -fx-text-fill: black; -fx-font-weight: bold; -fx-background-radius: 11;" text="Añadir al carrito 🛒" />
                   <VBox layoutX="10.0" layoutY="36.0" prefHeight="14.0" prefWidth="128.0" />
-                  <Button fx:id="btnMeGustaFalda" layoutX="32.0" layoutY="51.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="134.0" style="-fx-background-color: #cccccc; -fx-text-fill: black; -fx-font-weight: bold; -fx-background-radius: 11;" text="❤" />
+                  <Button fx:id="btnMeGustaFalda" layoutX="32.0" layoutY="51.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="134.0" style="-fx-background-color: #ff0000; -fx-text-fill: black; -fx-font-weight: bold; -fx-background-radius: 11;" text="❤" />
                </children>
             </VBox>
             <VBox alignment="TOP_CENTER" layoutX="738.0" layoutY="69.0" prefHeight="107.0" prefWidth="154.0">
                <children>
-                  <Button fx:id="btnComprarTacones" mnemonicParsing="false" prefHeight="26.0" prefWidth="134.0" style="-fx-background-color: #cccccc; -fx-text-fill: black; -fx-font-weight: bold; -fx-background-radius: 11;" text="Comprar 💲" />
+                  <Button fx:id="btnComprarTacones" mnemonicParsing="false" prefHeight="26.0" prefWidth="134.0" style="-fx-background-color: #00cc30; -fx-text-fill: black; -fx-font-weight: bold; -fx-background-radius: 11;" text="Comprar 💲" />
                   <VBox prefHeight="14.0" prefWidth="128.0" />
-                  <Button fx:id="btnAgregarCarritoTacones" layoutX="32.0" layoutY="10.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="134.0" style="-fx-background-color: #cccccc; -fx-text-fill: black; -fx-font-weight: bold; -fx-background-radius: 11;" text="Añadir al carrito 🛒" />
+                  <Button fx:id="btnAgregarCarritoTacones" layoutX="32.0" layoutY="10.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="134.0" style="-fx-background-color: #00c8ff; -fx-text-fill: black; -fx-font-weight: bold; -fx-background-radius: 11;" text="Añadir al carrito 🛒" />
                   <VBox layoutX="10.0" layoutY="36.0" prefHeight="14.0" prefWidth="128.0" />
-                  <Button fx:id="btnMeGustaTacones" layoutX="32.0" layoutY="51.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="134.0" style="-fx-background-color: #cccccc; -fx-text-fill: black; -fx-font-weight: bold; -fx-background-radius: 11;" text="❤" />
+                  <Button fx:id="btnMeGustaTacones" layoutX="32.0" layoutY="51.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="134.0" style="-fx-background-color: #ff0000; -fx-text-fill: black; -fx-font-weight: bold; -fx-background-radius: 11;" text="❤" />
                </children>
             </VBox>
             <VBox alignment="TOP_CENTER" layoutX="738.0" layoutY="205.0" prefHeight="107.0" prefWidth="154.0">
                <children>
-                  <Button fx:id="btnComprarZapatos" mnemonicParsing="false" prefHeight="26.0" prefWidth="134.0" style="-fx-background-color: #cccccc; -fx-text-fill: black; -fx-font-weight: bold; -fx-background-radius: 11;" text="Comprar 💲" />
+                  <Button fx:id="btnComprarZapatos" mnemonicParsing="false" prefHeight="26.0" prefWidth="134.0" style="-fx-background-color: #00cc30; -fx-text-fill: black; -fx-font-weight: bold; -fx-background-radius: 11;" text="Comprar 💲" />
                   <VBox prefHeight="14.0" prefWidth="128.0" />
-                  <Button fx:id="btnAgregarCarritoZapatos" layoutX="32.0" layoutY="10.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="134.0" style="-fx-background-color: #cccccc; -fx-text-fill: black; -fx-font-weight: bold; -fx-background-radius: 11;" text="Añadir al carrito 🛒" />
+                  <Button fx:id="btnAgregarCarritoZapatos" layoutX="32.0" layoutY="10.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="134.0" style="-fx-background-color: #00c8ff; -fx-text-fill: black; -fx-font-weight: bold; -fx-background-radius: 11;" text="Añadir al carrito 🛒" />
                   <VBox layoutX="10.0" layoutY="36.0" prefHeight="14.0" prefWidth="128.0" />
-                  <Button fx:id="btnMeGustaZapatos" layoutX="32.0" layoutY="51.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="134.0" style="-fx-background-color: #cccccc; -fx-text-fill: black; -fx-font-weight: bold; -fx-background-radius: 11;" text="❤" />
+                  <Button fx:id="btnMeGustaZapatos" layoutX="32.0" layoutY="51.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="134.0" style="-fx-background-color: #ff0000; -fx-text-fill: black; -fx-font-weight: bold; -fx-background-radius: 11;" text="❤" />
                </children>
             </VBox>
             <VBox alignment="TOP_CENTER" layoutX="738.0" layoutY="338.0" prefHeight="107.0" prefWidth="154.0">
                <children>
-                  <Button fx:id="btnComprarJeans" mnemonicParsing="false" prefHeight="26.0" prefWidth="134.0" style="-fx-background-color: #cccccc; -fx-text-fill: black; -fx-font-weight: bold; -fx-background-radius: 11;" text="Comprar 💲" />
+                  <Button fx:id="btnComprarJeans" mnemonicParsing="false" prefHeight="26.0" prefWidth="134.0" style="-fx-background-color: #00cc30; -fx-text-fill: black; -fx-font-weight: bold; -fx-background-radius: 11;" text="Comprar 💲" />
                   <VBox prefHeight="14.0" prefWidth="128.0" />
-                  <Button fx:id="btnAgregarCarritoJeans" layoutX="32.0" layoutY="10.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="134.0" style="-fx-background-color: #cccccc; -fx-text-fill: black; -fx-font-weight: bold; -fx-background-radius: 11;" text="Añadir al carrito 🛒" />
+                  <Button fx:id="btnAgregarCarritoJeans" layoutX="32.0" layoutY="10.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="134.0" style="-fx-background-color: #00c8ff; -fx-text-fill: black; -fx-font-weight: bold; -fx-background-radius: 11;" text="Añadir al carrito 🛒" />
                   <VBox layoutX="10.0" layoutY="36.0" prefHeight="14.0" prefWidth="128.0" />
-                  <Button fx:id="btnMeGustaJeans" layoutX="32.0" layoutY="51.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="134.0" style="-fx-background-color: #cccccc; -fx-text-fill: black; -fx-font-weight: bold; -fx-background-radius: 11;" text="❤" />
+                  <Button fx:id="btnMeGustaJeans" layoutX="32.0" layoutY="51.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="134.0" style="-fx-background-color: #ff0000; -fx-text-fill: black; -fx-font-weight: bold; -fx-background-radius: 11;" text="❤" />
                </children>
             </VBox>
-            <Button fx:id="btnIrCarrito" layoutX="772.0" layoutY="15.0" mnemonicParsing="false" onAction="#handleIrAlCarrito" prefHeight="26.0" prefWidth="42.0" style="-fx-background-radius: 9;" text="🛒" />
-            <Button fx:id="btnIrFavoritos" layoutX="834.0" layoutY="15.0" mnemonicParsing="false" onAction="#handleIrAFavoritos" prefHeight="26.0" prefWidth="42.0" style="-fx-background-radius: 9;" text="❤" />
-            <Button fx:id="btnIrHistorial" layoutX="892.0" layoutY="15.0" mnemonicParsing="false" onAction="#handleIrHistorial" prefHeight="26.0" prefWidth="42.0" style="-fx-background-radius: 9;" text="💲🤑" />
+            <Button fx:id="btnIrCarrito" layoutX="772.0" layoutY="15.0" mnemonicParsing="false" onAction="#handleIrAlCarrito" prefHeight="26.0" prefWidth="42.0" style="-fx-background-radius: 9; -fx-background-color: #00c8ff; -fx-font-weight: bold; -fx-text-fill: black;" text="🛒" />
+            <Button fx:id="btnIrFavoritos" layoutX="834.0" layoutY="15.0" mnemonicParsing="false" onAction="#handleIrAFavoritos" prefHeight="26.0" prefWidth="42.0" style="-fx-background-radius: 9; -fx-background-color: #ff0000; -fx-font-weight: bold; -fx-text-fill: black;" text="❤" />
+            <Button fx:id="btnIrHistorial" layoutX="892.0" layoutY="15.0" mnemonicParsing="false" onAction="#handleIrHistorial" prefHeight="26.0" prefWidth="42.0" style="-fx-background-radius: 9; -fx-background-color: #00cc30; -fx-font-weight: bold; -fx-text-fill: black;" text="💲🤑" />
          </children>
       </AnchorPane>
    </children>

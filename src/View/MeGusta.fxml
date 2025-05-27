@@ -24,8 +24,8 @@
     </TableView>
 
     <HBox alignment="CENTER" spacing="20">
-        <Button fx:id="btnEliminarFav" onAction="#handleEliminarFavorito" style="-fx-background-radius: 11;" text="Eliminar Favorito" />
-        <Button fx:id="btnVolverCatalogo" onAction="#handleVolverCatalogo" style="-fx-background-radius: 11;" text="Volver al Catálogo" />
+        <Button fx:id="btnEliminarFav" onAction="#handleEliminarFavorito" style="-fx-background-radius: 11; -fx-background-color: #ff0000; -fx-text-fill: white; -fx-font-weight: bold;" text="Eliminar Favorito" />
+        <Button fx:id="btnVolverCatalogo" onAction="#handleVolverCatalogo" style="-fx-background-radius: 11; -fx-background-color: #00c8ff; -fx-text-fill: white; -fx-font-weight: bold;" text="Volver al Catálogo" />
     </HBox>
 
 </VBox>
