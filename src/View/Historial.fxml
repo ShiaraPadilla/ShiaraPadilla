@@ -19,8 +19,8 @@
     </TableView>
 
     <HBox alignment="CENTER" spacing="20">
-        <Button fx:id="btnEliminar" onAction="#handleEliminarHistorial" prefHeight="27.0" prefWidth="116.0" style="-fx-background-radius: 9;" text="Eliminar historial" />
-        <Button fx:id="btnVolver" onAction="#handleCatalogo" style="-fx-background-radius: 9;" text="Volver al Catálogo" />
+        <Button fx:id="btnEliminar" onAction="#handleEliminarHistorial" prefHeight="27.0" prefWidth="116.0" style="-fx-background-radius: 9; -fx-background-color: #ff0000; -fx-font-weight: bold; -fx-text-fill: white;" text="Eliminar historial" />
+        <Button fx:id="btnVolver" onAction="#handleCatalogo" style="-fx-background-radius: 9; -fx-background-color: #00c8ff; -fx-font-weight: bold; -fx-text-fill: white;" text="Volver al Catálogo" />
     </HBox>
     
 </VBox>
