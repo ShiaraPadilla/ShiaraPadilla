@@ -19,7 +19,6 @@
         <columns>
             <TableColumn fx:id="colNombre" prefWidth="200" text="Producto" />
             <TableColumn fx:id="colPrecio" prefWidth="100" text="Precio" />
-            <TableColumn fx:id="colAccion" prefWidth="100" text="Acción" />
         </columns>
     </TableView>
 
